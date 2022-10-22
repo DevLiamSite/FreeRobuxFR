@@ -1,0 +1,137 @@
+body{
+    background: color #f4f4f4;
+    color:#555;
+    font-family: Arial, Helvetica, sans-serif;
+    font: size 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: rgb(22, 128, 235);
+    color: white;
+    
+}
+
+#navbar{
+    background-color: #333;
+    color: white;
+}
+
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color:rgb(250, 239, 239);
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+    transition: 0.5s;
+}
+
+#navbar a:hover{
+    color: rgb(22, 128, 235);
+}
+#showcase{
+    background-image: url('roblox\ background.png');
+    background-position: center right;
+    min-height: 300px;
+    margin-bottom: -100px;
+    text-align: center;
+    padding-bottom: 250px;
+}
+
+#showcase h1{
+    color: white;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+#showcase h2{
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+#showcase button{
+    border-radius: 70px;
+    background: transparent;
+    border: solid rgb(22, 128, 235) ;
+    transition: 0.5s;
+}
+
+#showcase button:hover{
+    background:solid;
+    background-color: rgb(22, 128, 235);
+    padding: 10px;
+}
+
+
+
+#main{
+    float:left;
+    width: 70%;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float:left;
+    width: 30%;
+    background-color: #333;
+    color: white;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+#mainfooter{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: -20px;
+    margin-bottom:-20px;
+}
+
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
+
+#bodyofnpage{
+    background: url(roblox\ background.png);
+}
+
+#bruh{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 300px;
+
+}
